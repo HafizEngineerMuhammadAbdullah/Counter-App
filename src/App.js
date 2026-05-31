@@ -9,13 +9,13 @@ function App() {
   // function to increment
   const increment = () => {
     // updates state.
-    setCount(count + 1);
+    setCount(count => count + 1);
   }
 
   // function to decrement
   const decrement = () => {
     if (count > 0)
-      setCount(count - 1);
+      setCount(count => count - 1);
   }
   // function to reset
   const reset = () => {

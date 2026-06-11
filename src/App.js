@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 
@@ -28,9 +27,9 @@ function App() {
         <h1 className='header'>Counter App</h1>
         <h1 className='count'>{count}</h1>
         <div id='button-group'>
-          <button aria-label="Increment counter" onClick={() => setCount(count + 1)}>Increment</button>
+          <button aria-label="Increment counter" onClick={increment}>Increment</button>
           <button aria-label="Decrement counter" onClick={decrement}>Decrement</button>
-          <button aria-label="Reset counter" onClick={() => setCount(0)}>Reset</button>
+          <button aria-label="Reset counter" onClick={reset}>Reset</button>
         </div>
       </header >
     </div >

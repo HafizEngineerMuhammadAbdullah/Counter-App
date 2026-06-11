@@ -9,12 +9,6 @@
   font-size: calc(10px + 2vmin);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 /* for App Header */
 .App-header {
   width: min(550px, 90vw);

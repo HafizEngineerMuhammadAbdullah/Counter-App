@@ -94,7 +94,7 @@ button:hover {
 }
 
 /* for Tablet & Mobile */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .App {
     height: 100%;
     width: 100%;

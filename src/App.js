@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 
@@ -7,10 +6,10 @@ function App() {
   const [count, setCount] = useState(0);
 
   // function to increment
-  const increment = () => {
-    // updates state.
-    setCount(count => count + 1);
-  }
+  // const increment = () => {
+  //   // updates state.
+  //   setCount(count => count + 1);
+  // }
 
   // function to decrement
   const decrement = () => {
@@ -18,9 +17,9 @@ function App() {
       setCount(count => count - 1);
   }
   // function to reset
-  const reset = () => {
-    setCount(0);
-  }
+  // const reset = () => {
+  //   setCount(0);
+  // }
 
   return (
     <div className="App">
